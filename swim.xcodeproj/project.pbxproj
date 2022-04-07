@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE5397B27FA574D00ABFF10 /* CSAgentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5396227FA574C00ABFF10 /* CSAgentApp.swift */; };
+		DCE5397C27FA574D00ABFF10 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5396327FA574C00ABFF10 /* Persistence.swift */; };
+		DCE5397D27FA574D00ABFF10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5396427FA574C00ABFF10 /* ContentView.swift */; };
+		DCE5397E27FA574D00ABFF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE5396527FA574C00ABFF10 /* Assets.xcassets */; };
+		DCE5397F27FA574D00ABFF10 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5396727FA574C00ABFF10 /* Agent.swift */; };
+		DCE5398027FA574D00ABFF10 /* swim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE5396927FA574C00ABFF10 /* swim.xcdatamodeld */; };
+		DCE5398127FA574D00ABFF10 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5396C27FA574C00ABFF10 /* Env.swift */; };
+		DCE5398227FA574D00ABFF10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE5396D27FA574C00ABFF10 /* Preview Assets.xcassets */; };
+		DCE5398327FA574D00ABFF10 /* SnakeAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5397127FA574C00ABFF10 /* SnakeAgent.swift */; };
+		DCE5398427FA574D00ABFF10 /* SnakeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DCE5397227FA574C00ABFF10 /* SnakeScene.sks */; };
+		DCE5398527FA574D00ABFF10 /* SnakeEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5397327FA574C00ABFF10 /* SnakeEnv.swift */; };
+		DCE5398627FA574D00ABFF10 /* SnakeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5397427FA574C00ABFF10 /* SnakeScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE5397927FA574D00ABFF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE5397527FA574C00ABFF10 /* swim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCDA7B1827D0D27300908217;
+			remoteInfo = swim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCDA7B1827D0D27300908217 /* swim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE5396227FA574C00ABFF10 /* CSAgentApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSAgentApp.swift; sourceTree = "<group>"; };
+		DCE5396327FA574C00ABFF10 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DCE5396427FA574C00ABFF10 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCE5396527FA574C00ABFF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE5396727FA574C00ABFF10 /* Agent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		DCE5396A27FA574C00ABFF10 /* CSAgent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSAgent.xcdatamodel; sourceTree = "<group>"; };
+		DCE5396C27FA574C00ABFF10 /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		DCE5396D27FA574C00ABFF10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCE5396E27FA574C00ABFF10 /* swim.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = swim.entitlements; sourceTree = "<group>"; };
+		DCE5397127FA574C00ABFF10 /* SnakeAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeAgent.swift; sourceTree = "<group>"; };
+		DCE5397227FA574C00ABFF10 /* SnakeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnakeScene.sks; sourceTree = "<group>"; };
+		DCE5397327FA574C00ABFF10 /* SnakeEnv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeEnv.swift; sourceTree = "<group>"; };
+		DCE5397427FA574C00ABFF10 /* SnakeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeScene.swift; sourceTree = "<group>"; };
+		DCE5397527FA574C00ABFF10 /* swim.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swim.xcodeproj; path = ../../../Desktop/swim/CSAgent/swim.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCDA7B1527D0D27300908217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCDA7B0F27D0D27300908217 = {
+			isa = PBXGroup;
+			children = (
+				DCE5396027FA574C00ABFF10 /* swim */,
+				DCE5397527FA574C00ABFF10 /* swim.xcodeproj */,
+				DCDA7B1927D0D27300908217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDA7B1927D0D27300908217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA7B1827D0D27300908217 /* swim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE5396027FA574C00ABFF10 /* swim */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5396627FA574C00ABFF10 /* Agent */,
+				DCE5396B27FA574C00ABFF10 /* Environment */,
+				DCE5396127FA574C00ABFF10 /* UI */,
+				DCE5396F27FA574C00ABFF10 /* envs */,
+				DCE5396827FA574C00ABFF10 /* Preview Content */,
+				DCE5396527FA574C00ABFF10 /* Assets.xcassets */,
+				DCE5396927FA574C00ABFF10 /* swim.xcdatamodeld */,
+				DCE5396D27FA574C00ABFF10 /* Preview Assets.xcassets */,
+				DCE5396E27FA574C00ABFF10 /* swim.entitlements */,
+			);
+			name = swim;
+			path = ../../../Desktop/swim/CSAgent/swim;
+			sourceTree = "<group>";
+		};
+		DCE5396127FA574C00ABFF10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5396227FA574C00ABFF10 /* CSAgentApp.swift */,
+				DCE5396327FA574C00ABFF10 /* Persistence.swift */,
+				DCE5396427FA574C00ABFF10 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DCE5396627FA574C00ABFF10 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5396727FA574C00ABFF10 /* Agent.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		DCE5396827FA574C00ABFF10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCE5396B27FA574C00ABFF10 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5396C27FA574C00ABFF10 /* Env.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		DCE5396F27FA574C00ABFF10 /* envs */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5397027FA574C00ABFF10 /* snake */,
+			);
+			path = envs;
+			sourceTree = "<group>";
+		};
+		DCE5397027FA574C00ABFF10 /* snake */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5397127FA574C00ABFF10 /* SnakeAgent.swift */,
+				DCE5397227FA574C00ABFF10 /* SnakeScene.sks */,
+				DCE5397327FA574C00ABFF10 /* SnakeEnv.swift */,
+				DCE5397427FA574C00ABFF10 /* SnakeScene.swift */,
+			);
+			path = snake;
+			sourceTree = "<group>";
+		};
+		DCE5397627FA574C00ABFF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5397A27FA574D00ABFF10 /* swim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCDA7B1727D0D27300908217 /* swim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDA7B2B27D0D27500908217 /* Build configuration list for PBXNativeTarget "swim" */;
+			buildPhases = (
+				DCDA7B1427D0D27300908217 /* Sources */,
+				DCDA7B1527D0D27300908217 /* Frameworks */,
+				DCDA7B1627D0D27300908217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swim;
+			productName = CSAgent;
+			productReference = DCDA7B1827D0D27300908217 /* swim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDA7B1027D0D27300908217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DCDA7B1727D0D27300908217 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DCDA7B1327D0D27300908217 /* Build configuration list for PBXProject "swim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCDA7B0F27D0D27300908217;
+			packageReferences = (
+				DC7F00C727DAADEA00D0C556 /* XCRemoteSwiftPackageReference "ShaderKit" */,
+				DCE5393A27FA53D100ABFF10 /* XCRemoteSwiftPackageReference "ShaderKit" */,
+			);
+			productRefGroup = DCDA7B1927D0D27300908217 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DCE5397627FA574C00ABFF10 /* Products */;
+					ProjectRef = DCE5397527FA574C00ABFF10 /* swim.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DCDA7B1727D0D27300908217 /* swim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DCE5397A27FA574D00ABFF10 /* swim.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = swim.app;
+			remoteRef = DCE5397927FA574D00ABFF10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDA7B1627D0D27300908217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE5398427FA574D00ABFF10 /* SnakeScene.sks in Resources */,
+				DCE5398227FA574D00ABFF10 /* Preview Assets.xcassets in Resources */,
+				DCE5397E27FA574D00ABFF10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCDA7B1427D0D27300908217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE5397B27FA574D00ABFF10 /* CSAgentApp.swift in Sources */,
+				DCE5397F27FA574D00ABFF10 /* Agent.swift in Sources */,
+				DCE5397C27FA574D00ABFF10 /* Persistence.swift in Sources */,
+				DCE5398127FA574D00ABFF10 /* Env.swift in Sources */,
+				DCE5398627FA574D00ABFF10 /* SnakeScene.swift in Sources */,
+				DCE5398527FA574D00ABFF10 /* SnakeEnv.swift in Sources */,
+				DCE5398027FA574D00ABFF10 /* swim.xcdatamodeld in Sources */,
+				DCE5397D27FA574D00ABFF10 /* ContentView.swift in Sources */,
+				DCE5398327FA574D00ABFF10 /* SnakeAgent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCDA7B2927D0D27500908217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCDA7B2A27D0D27500908217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCDA7B2C27D0D27500908217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swim/swim.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k.swim;
+				PRODUCT_NAME = swim;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCDA7B2D27D0D27500908217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swim/swim.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k.swim;
+				PRODUCT_NAME = swime;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCDA7B1327D0D27300908217 /* Build configuration list for PBXProject "swim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDA7B2927D0D27500908217 /* Debug */,
+				DCDA7B2A27D0D27500908217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDA7B2B27D0D27500908217 /* Build configuration list for PBXNativeTarget "swim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDA7B2C27D0D27500908217 /* Debug */,
+				DCDA7B2D27D0D27500908217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC7F00C727DAADEA00D0C556 /* XCRemoteSwiftPackageReference "ShaderKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/ShaderKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		DCE5393A27FA53D100ABFF10 /* XCRemoteSwiftPackageReference "ShaderKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/ShaderKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCVersionGroup section */
+		DCE5396927FA574C00ABFF10 /* swim.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCE5396A27FA574C00ABFF10 /* CSAgent.xcdatamodel */,
+			);
+			currentVersion = DCE5396A27FA574C00ABFF10 /* CSAgent.xcdatamodel */;
+			path = swim.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCDA7B1027D0D27300908217 /* Project object */;
+}

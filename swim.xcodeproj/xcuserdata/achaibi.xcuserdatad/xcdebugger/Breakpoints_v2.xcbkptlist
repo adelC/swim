@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BD7C7C8D-7D9D-48D3-849C-79BBDCE921BA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C98C36D-362E-4C9D-A2D4-0AAB47A3C33F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CSAgent/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "items"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A17520A8-48C8-4BE6-BE27-FC71CE50F104"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CSAgent/Environment/SnakeScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "didBegin(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4AFEF54-C44D-4D64-A34D-5595E562448A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CSAgent/Environment/Utils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CSAgent/UI/SnakeScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "SnakeScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912 - c06f19c1d52abfe8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSAgent.SnakeScene.env.getter : Swift.Optional&lt;CSAgent.SnakeEnv&gt;"
+                  moduleName = "CSAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/achaibi/code/xcode/CSAgent/CSAgent/UI/SnakeScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912 - b6d71c4f5c0effc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSAgent.SnakeScene.env.setter : Swift.Optional&lt;CSAgent.SnakeEnv&gt;"
+                  moduleName = "CSAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/achaibi/code/xcode/CSAgent/CSAgent/UI/SnakeScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912 - 8e7bc44d5de581d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSAgent.SnakeScene.env.modify : Swift.Optional&lt;CSAgent.SnakeEnv&gt;"
+                  moduleName = "CSAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/achaibi/code/xcode/CSAgent/CSAgent/UI/SnakeScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912 - 596d761fd44f23cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSAgent.SnakeScene.env.modify : Swift.Optional&lt;CSAgent.SnakeEnv&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CSAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/achaibi/code/xcode/CSAgent/CSAgent/UI/SnakeScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912 - f593996bfbe05ec8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSAgent.SnakeScene.init(size: __C.CGSize) -&gt; CSAgent.SnakeScene"
+                  moduleName = "CSAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/achaibi/code/xcode/CSAgent/CSAgent/UI/SnakeScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912 - 4295e08b5c200957"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSAgent.SnakeScene.init() -&gt; CSAgent.SnakeScene"
+                  moduleName = "CSAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/achaibi/code/xcode/CSAgent/CSAgent/UI/SnakeScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "B4690D80-8A6D-427B-BCF3-FB69019D1912 - acc200fd86e29410"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSAgent.SnakeScene.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CSAgent.SnakeScene&gt;"
+                  moduleName = "CSAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/achaibi/code/xcode/CSAgent/CSAgent/UI/SnakeScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
